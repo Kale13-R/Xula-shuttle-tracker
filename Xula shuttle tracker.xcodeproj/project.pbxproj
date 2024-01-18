@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347DF8072B599570003A74B4 /* Xula_shuttle_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DF8062B599570003A74B4 /* Xula_shuttle_trackerApp.swift */; };
+		347DF8092B599570003A74B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DF8082B599570003A74B4 /* ContentView.swift */; };
+		347DF80B2B599572003A74B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347DF80A2B599572003A74B4 /* Assets.xcassets */; };
+		347DF80E2B599572003A74B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347DF80D2B599572003A74B4 /* Preview Assets.xcassets */; };
+		347DF8182B599572003A74B4 /* Xula_shuttle_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DF8172B599572003A74B4 /* Xula_shuttle_trackerTests.swift */; };
+		347DF8222B599572003A74B4 /* Xula_shuttle_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DF8212B599572003A74B4 /* Xula_shuttle_trackerUITests.swift */; };
+		347DF8242B599572003A74B4 /* Xula_shuttle_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347DF8232B599572003A74B4 /* Xula_shuttle_trackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347DF8142B599572003A74B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347DF7FB2B599570003A74B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347DF8022B599570003A74B4;
+			remoteInfo = "Xula shuttle tracker";
+		};
+		347DF81E2B599572003A74B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347DF7FB2B599570003A74B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347DF8022B599570003A74B4;
+			remoteInfo = "Xula shuttle tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347DF8032B599570003A74B4 /* Xula shuttle tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xula shuttle tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347DF8062B599570003A74B4 /* Xula_shuttle_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xula_shuttle_trackerApp.swift; sourceTree = "<group>"; };
+		347DF8082B599570003A74B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		347DF80A2B599572003A74B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		347DF80D2B599572003A74B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		347DF8132B599572003A74B4 /* Xula shuttle trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xula shuttle trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347DF8172B599572003A74B4 /* Xula_shuttle_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xula_shuttle_trackerTests.swift; sourceTree = "<group>"; };
+		347DF81D2B599572003A74B4 /* Xula shuttle trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xula shuttle trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347DF8212B599572003A74B4 /* Xula_shuttle_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xula_shuttle_trackerUITests.swift; sourceTree = "<group>"; };
+		347DF8232B599572003A74B4 /* Xula_shuttle_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xula_shuttle_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		347DF8002B599570003A74B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347DF8102B599572003A74B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347DF81A2B599572003A74B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347DF7FA2B599570003A74B4 = {
+			isa = PBXGroup;
+			children = (
+				347DF8052B599570003A74B4 /* Xula shuttle tracker */,
+				347DF8162B599572003A74B4 /* Xula shuttle trackerTests */,
+				347DF8202B599572003A74B4 /* Xula shuttle trackerUITests */,
+				347DF8042B599570003A74B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		347DF8042B599570003A74B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347DF8032B599570003A74B4 /* Xula shuttle tracker.app */,
+				347DF8132B599572003A74B4 /* Xula shuttle trackerTests.xctest */,
+				347DF81D2B599572003A74B4 /* Xula shuttle trackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347DF8052B599570003A74B4 /* Xula shuttle tracker */ = {
+			isa = PBXGroup;
+			children = (
+				347DF8062B599570003A74B4 /* Xula_shuttle_trackerApp.swift */,
+				347DF8082B599570003A74B4 /* ContentView.swift */,
+				347DF80A2B599572003A74B4 /* Assets.xcassets */,
+				347DF80C2B599572003A74B4 /* Preview Content */,
+			);
+			path = "Xula shuttle tracker";
+			sourceTree = "<group>";
+		};
+		347DF80C2B599572003A74B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				347DF80D2B599572003A74B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		347DF8162B599572003A74B4 /* Xula shuttle trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				347DF8172B599572003A74B4 /* Xula_shuttle_trackerTests.swift */,
+			);
+			path = "Xula shuttle trackerTests";
+			sourceTree = "<group>";
+		};
+		347DF8202B599572003A74B4 /* Xula shuttle trackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				347DF8212B599572003A74B4 /* Xula_shuttle_trackerUITests.swift */,
+				347DF8232B599572003A74B4 /* Xula_shuttle_trackerUITestsLaunchTests.swift */,
+			);
+			path = "Xula shuttle trackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		347DF8022B599570003A74B4 /* Xula shuttle tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347DF8272B599572003A74B4 /* Build configuration list for PBXNativeTarget "Xula shuttle tracker" */;
+			buildPhases = (
+				347DF7FF2B599570003A74B4 /* Sources */,
+				347DF8002B599570003A74B4 /* Frameworks */,
+				347DF8012B599570003A74B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xula shuttle tracker";
+			productName = "Xula shuttle tracker";
+			productReference = 347DF8032B599570003A74B4 /* Xula shuttle tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		347DF8122B599572003A74B4 /* Xula shuttle trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347DF82A2B599572003A74B4 /* Build configuration list for PBXNativeTarget "Xula shuttle trackerTests" */;
+			buildPhases = (
+				347DF80F2B599572003A74B4 /* Sources */,
+				347DF8102B599572003A74B4 /* Frameworks */,
+				347DF8112B599572003A74B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347DF8152B599572003A74B4 /* PBXTargetDependency */,
+			);
+			name = "Xula shuttle trackerTests";
+			productName = "Xula shuttle trackerTests";
+			productReference = 347DF8132B599572003A74B4 /* Xula shuttle trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		347DF81C2B599572003A74B4 /* Xula shuttle trackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347DF82D2B599572003A74B4 /* Build configuration list for PBXNativeTarget "Xula shuttle trackerUITests" */;
+			buildPhases = (
+				347DF8192B599572003A74B4 /* Sources */,
+				347DF81A2B599572003A74B4 /* Frameworks */,
+				347DF81B2B599572003A74B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347DF81F2B599572003A74B4 /* PBXTargetDependency */,
+			);
+			name = "Xula shuttle trackerUITests";
+			productName = "Xula shuttle trackerUITests";
+			productReference = 347DF81D2B599572003A74B4 /* Xula shuttle trackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347DF7FB2B599570003A74B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					347DF8022B599570003A74B4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					347DF8122B599572003A74B4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 347DF8022B599570003A74B4;
+					};
+					347DF81C2B599572003A74B4 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 347DF8022B599570003A74B4;
+					};
+				};
+			};
+			buildConfigurationList = 347DF7FE2B599570003A74B4 /* Build configuration list for PBXProject "Xula shuttle tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 347DF7FA2B599570003A74B4;
+			productRefGroup = 347DF8042B599570003A74B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				347DF8022B599570003A74B4 /* Xula shuttle tracker */,
+				347DF8122B599572003A74B4 /* Xula shuttle trackerTests */,
+				347DF81C2B599572003A74B4 /* Xula shuttle trackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		347DF8012B599570003A74B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347DF80E2B599572003A74B4 /* Preview Assets.xcassets in Resources */,
+				347DF80B2B599572003A74B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347DF8112B599572003A74B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347DF81B2B599572003A74B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		347DF7FF2B599570003A74B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347DF8092B599570003A74B4 /* ContentView.swift in Sources */,
+				347DF8072B599570003A74B4 /* Xula_shuttle_trackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347DF80F2B599572003A74B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347DF8182B599572003A74B4 /* Xula_shuttle_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347DF8192B599572003A74B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347DF8222B599572003A74B4 /* Xula_shuttle_trackerUITests.swift in Sources */,
+				347DF8242B599572003A74B4 /* Xula_shuttle_trackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		347DF8152B599572003A74B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 347DF8022B599570003A74B4 /* Xula shuttle tracker */;
+			targetProxy = 347DF8142B599572003A74B4 /* PBXContainerItemProxy */;
+		};
+		347DF81F2B599572003A74B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 347DF8022B599570003A74B4 /* Xula shuttle tracker */;
+			targetProxy = 347DF81E2B599572003A74B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		347DF8252B599572003A74B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		347DF8262B599572003A74B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347DF8282B599572003A74B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xula shuttle tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.Xula-shuttle-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		347DF8292B599572003A74B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xula shuttle tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.Xula-shuttle-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		347DF82B2B599572003A74B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.Xula-shuttle-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xula shuttle tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xula shuttle tracker";
+			};
+			name = Debug;
+		};
+		347DF82C2B599572003A74B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.Xula-shuttle-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xula shuttle tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Xula shuttle tracker";
+			};
+			name = Release;
+		};
+		347DF82E2B599572003A74B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.Xula-shuttle-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xula shuttle tracker";
+			};
+			name = Debug;
+		};
+		347DF82F2B599572003A74B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kaleb-Riley.Xula-shuttle-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xula shuttle tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		347DF7FE2B599570003A74B4 /* Build configuration list for PBXProject "Xula shuttle tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347DF8252B599572003A74B4 /* Debug */,
+				347DF8262B599572003A74B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347DF8272B599572003A74B4 /* Build configuration list for PBXNativeTarget "Xula shuttle tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347DF8282B599572003A74B4 /* Debug */,
+				347DF8292B599572003A74B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347DF82A2B599572003A74B4 /* Build configuration list for PBXNativeTarget "Xula shuttle trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347DF82B2B599572003A74B4 /* Debug */,
+				347DF82C2B599572003A74B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347DF82D2B599572003A74B4 /* Build configuration list for PBXNativeTarget "Xula shuttle trackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347DF82E2B599572003A74B4 /* Debug */,
+				347DF82F2B599572003A74B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347DF7FB2B599570003A74B4 /* Project object */;
+}
