@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC4BoLWluQd1dN5xuKA9KFujNh7M8Foc-8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>852546238640</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Kaleb-Riley.Xula-shuttle-tracker</string>
+	<key>PROJECT_ID</key>
+	<string>xula-shuttle-tracker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xula-shuttle-tracker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:852546238640:ios:a48aa7f7e5df2278b12375</string>
+</dict>
+</plist>
